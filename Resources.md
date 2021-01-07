@@ -4,8 +4,6 @@
 - [Unix & Linus Systems Administration Handbook](https://www.oreilly.com/library/view/unix-and-linux/9780134278308/) - ebook or print book available
 - [How Linux Works, 2nd Edition by Brian Ward](https://nostarch.com/howlinuxworks2) - ebook or print book available
 - [MIT's Missing Semester](https://missing.csail.mit.edu/) - helps with covering background information
-- [A Practical Guide to Linux: Commands, Editors, and Shell Programming](https://www.oreilly.com/library/view/a-practical-guide/9780133085129/)
-- [Advanced Bash Scripting Guide](https://tldp.org/LDP/abs/html/)
 - [System Monitoring & CLI Diagnostic Tools](https://docs.monadical.com/s/system-monitoring-tools)
 
 ### Project 1 Resources:
@@ -20,11 +18,6 @@
 
 - [OpenLDAP QuickStart Guide](https://www.openldap.org/doc/admin24/quickstart.html)
 - [Azure to AWS Map](https://itnext.io/azure-to-aws-map-70d4c56f55a7)
-
-#### Useful-ish:
-
-- [Install and Configure GitLab on Ubuntu 18.04](https://www.howtoforge.com/tutorial/how-to-install-and-configure-gitlab-on-ubuntu-1804/)
-- [How to set up a GitLab Server and Host your own Git Repositories](https://www.techrepublic.com/article/how-to-set-up-a-gitlab-server-and-host-your-own-git-repositories/)
 
 ### Pretty good blogs:
 

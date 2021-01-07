@@ -19,6 +19,7 @@ moved it here.
 - [Built With](#built-with)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
+- [Release History](#release-history)
 - [Authors](#authors)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -88,6 +89,21 @@ of conduct, and the process for submitting pull requests to us.
 We use [SemVer](http://semver.org/) for versioning. For the versions
 available, see the [tags on this
 repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+
+## Release History
+
+- 0.2.1
+  - CHANGE: Update docs (module code remains unchanged)
+- 0.2.0
+  - CHANGE: Remove setDefaultXYZ()
+  - ADD: Add init()
+- 0.1.1
+  - FIX: Crash when calling baz() (Thanks @GenerousContributorName!)
+- 0.1.0
+  - The first proper release
+  - CHANGE: Rename foo() to bar()
+- 0.0.1
+  - Work in progress
 
 ## Authors
 

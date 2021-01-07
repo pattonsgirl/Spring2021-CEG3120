@@ -1,5 +1,9 @@
 # Project 4
 
+## Objectives:
+
+- Explore distributed architecture via HAProxy
+
 ## 1. Load balancer with HAProxy
 
 - Stand up proxy server (HAProxy)
@@ -44,19 +48,6 @@ DeviceIndex: '0'
 - [HAProxy & Load Balancing Concepts](https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts)
 - [Configuring HAProxy to Set Up HTTP Load Balancing (Layer 4)](https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps)
 - [Configuring HAProxy for Layer 7 Load Balancing](https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-as-a-layer-7-load-balancer-for-wordpress-and-nginx-on-ubuntu-14-04)
-
-## 2. Implement Continuous Deployment (CD)
-
-For this part, your goal is to have a main site and update all (in this case, 2) webservers at once. You may use a simple template, such as `index-main.html` that is in the project folder, or something complex, such as a personal site or site created in another class. Just make sure you are familar enough that you can make simple changes to the site to test your hooks.
-
-- You will be using the `post-receive` hook to update the website folder once a change is made (`push` received) on the server side
-- To deploy to multiple servers, you can choose a multitude of methods.
-  - have `post-receive` hook on both webservers, then either:
-    - add other server as a `remote` branch, `push` to it from development machine
-    - create a special `push` alias, such as `push-sites` that pushes to both servers
-  - use a file transfer command inside the `post-receive` script, such as `scp` or `rsync` to push files out to other server
-  - something else I'm not thinking of but works?
-    - Note: must use hooks to qualify as a valid solution
 
 ### Deliverables:
 

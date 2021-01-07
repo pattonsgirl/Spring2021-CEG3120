@@ -6,25 +6,16 @@
 - [MIT's Missing Semester](https://missing.csail.mit.edu/) - helps with covering background information
 - [System Monitoring & CLI Diagnostic Tools](https://docs.monadical.com/s/system-monitoring-tools)
 
-### Project 1 Resources:
-
-- [Check existence of a command](https://stackoverflow.com/questions/592620/how-can-i-check-if-a-program-exists-from-a-bash-script)
-- [Check existence of a directory in PATH](https://stackoverflow.com/questions/1396066/detect-if-users-path-has-a-specific-directory-in-it)
-- [How to set a custom Message of the Day on Linux](https://linuxconfig.org/how-to-set-a-custom-message-of-the-day-on-linux)
-- [How to use the motd file to get linux users to pay attention](https://www.networkworld.com/article/3219736/how-to-use-the-motd-file-to-get-linux-users-to-pay-attention.amp.html)
-- [How to check if running as `root` in a bash script](https://stackoverflow.com/questions/18215973/how-to-check-if-running-as-root-in-a-bash-script)
-
-### Project 2 Resources:
-
-- [OpenLDAP QuickStart Guide](https://www.openldap.org/doc/admin24/quickstart.html)
-- [Azure to AWS Map](https://itnext.io/azure-to-aws-map-70d4c56f55a7)
-
 ### Pretty good blogs:
 
 - [Linux Commands Frequently Used by SysAdmins](https://haydenjames.io/linux-commands-frequently-used-by-linux-sysadmins-part-1/) - multi-part blog
 - [How to become a Devops Engineer in 2020](https://devopscube.com/become-devops-engineer/)
 - [Web Developer Roadmap 2020](https://github.com/kamranahmedse/developer-roadmap)
 - [Compilation of Linux Stat Articles](https://github.com/kamranahmedse/developer-roadmap)
+
+### Project 1 Resources:
+
+### Project 2 Resources:
 
 ### Networking:
 
@@ -45,3 +36,6 @@
 - Powershell for SysAdmins: Workflow Automation Made Easy by Adam Bertram
   - I recommend ebook version as there are useful links listed in the book with rather expansive URLs
 - [List of OpenSource SysAdmin Resources](https://github.com/kahun/awesome-sysadmin)
+
+- [OpenLDAP QuickStart Guide](https://www.openldap.org/doc/admin24/quickstart.html)
+- [Azure to AWS Map](https://itnext.io/azure-to-aws-map-70d4c56f55a7)

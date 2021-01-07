@@ -140,6 +140,14 @@ While exploring and discovery is an important part of this course, any additiona
 5. Create a folder called `git` and change into the folder.
 6. Use the `git` command to `clone` your repository.
 
+## Git Passwordless (If you want)
+
+Note you will need to create the key pair on any system you want to use passwordless authentication on.
+
+1. [Create a key pair, upload public key (.\*\.pub) to github](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+2. [Change your repo to authenticate with SSH (not HTTPS)](https://help.github.jp/enterprise/2.11/user/articles/changing-a-remote-s-url/)
+3. [If you have errors, poke around here](https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey)
+
 ## Troubleshooting
 
 ### Destroying Excess Cloud Formations

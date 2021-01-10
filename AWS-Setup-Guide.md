@@ -137,8 +137,7 @@ While exploring and discovery is an important part of this course, any additiona
    - Click Create Repository
 3. In your github repository, select Code (green button). It should say "Clone with HTTPS". Copy the URL to your clipboard.
 4. SSH in to your AWS Educate environment.
-5. Create a folder called `git` and change into the folder.
-6. Use the `git` command to `clone` your repository.
+5. Use the `git` command to `clone` your repository.
 
 ## Git Passwordless (If you want)
 

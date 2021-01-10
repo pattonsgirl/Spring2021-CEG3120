@@ -2,16 +2,20 @@
 
 ### Objectives:
 
-- Get more familar with git
+- Sign up for AWS Educate
 - Get back into terminals and get comfortable with your environment
+- Get more familar with git
 
-Create your repository (see [AWS Setup Guide](../../AWS-Setup-Guide.md)). Add me, **pattonsgirl** as a contributor to your repository.
+## Setup your Workspace:
 
-## Crash Course in Bash
+[AWS Setup Guide & GitHub Setup](../../AWS-Setup-Guide.md)
+
+- Follow the guide to create a Linux system in AWS.
+- In GitHub, create your repository. Add me, **pattonsgirl** as a contributor to your repository.
 
 ## Git guide:
 
-In your repository, create a document called `git-guide.md` For each git command listed below, describe how to use it and what the command does.
+In your repository, create a document called `git-guide.md` For each git command listed below, describe how to use it and what the command does. In addition, link to one cheat sheet for git commands and one reference guide, such as Pro Git.
 
 - add
 - commit

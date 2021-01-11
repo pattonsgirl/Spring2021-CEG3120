@@ -123,7 +123,7 @@ While exploring and discovery is an important part of this course, any additiona
 
 **You are now ready to make an SSH connection to your AWS server.**
 
-- Open MobaXTerm or another terminal.
+- Open a terminal.
 - Copy of the AWS SSH key that was downloaded to your home directory
   - Helpful commands: `cp, ls, man`
   - The manual method: Create a file with a useful name (or the same name as the downloaded file) `ceg3120-aws-vm.pem`

@@ -143,13 +143,6 @@ While exploring and discovery is an important part of this course, any additiona
 ## Git Going
 
 1. Create or sign in to your [github](https://github.com/) account.
-2. Create a new Repository with a name of your choice. I recommend `Spring2021-CEG3120`.
-   - Set it to Private (you can change this in the future).
-   - Check the box to Initialize this repository with a README
-   - Click Create Repository
-3. In your github repository, select Code (green button). It should say "Clone with HTTPS". Copy the URL to your clipboard.
-4. SSH in to your AWS Educate environment.
-5. Use the `git` command to `clone` your repository.
 
 ## Git Passwordless (If you want)
 

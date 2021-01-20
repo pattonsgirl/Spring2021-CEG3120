@@ -2,6 +2,8 @@ Discord bot (https://realpython.com/how-to-make-a-discord-bot-python/):
 
     Project 1:
     Set up an API key, create basic bot to confirm working connection
+    Bot challenge: create something unique
+        Objective: learn to use an example to craft your own flair
 
     Project ?:
     Branch to make additions to python code

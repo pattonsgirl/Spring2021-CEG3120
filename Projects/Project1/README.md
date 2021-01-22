@@ -2,37 +2,55 @@
 
 ### Objectives:
 
-- Sign up for AWS Educate
 - Get back into terminals and get comfortable with your environment
 - Get more familar with git
+- Create a replica GitHub server
+- Create a Discord bot using Discord API calls in Python
 
 ## Setup your Workspace:
 
 [AWS Setup Guide & GitHub Setup](../../AWS-Setup-Guide.md)
 
 - Follow the guide to create a Linux system in AWS.
-- In GitHub, create your repository. Add me, **pattonsgirl** as a contributor to your repository.
+- Create a GitHub account
+- Click the link in Pilot to create your GitHub repo for this course.
+  - Recommended to bookmark the URL
+  - `https://github.com/WSU-kduncan/ceg3120-YOURGITHUBUSERNAME`
 
 ## Git guide:
 
-In your repository, create a document called `git-guide.md` For each git command listed below, describe how to use it and what the command does. In addition, link to one cheat sheet for git commands and one reference guide, such as Pro Git.
+In the main folder of your repository, create a file called `git-guide.md` For each git command listed below, describe how to use it and what the command does. In addition, link to one cheat sheet for git commands and one reference guide, such as Pro Git.
 
+- clone
+- init
+  - Flag to create a `bare` repository and definition of a `bare` repository
 - add
 - commit
 - push
 - pull
-- remote
-- merge
-- branch
 
 Use markdown to properly format your documentation by highlighting terminal text in a manner similar to:  
 `git add`  
 \`git add\`
 
-## Branching your Issues
+## Create a Discord Bot using discord.py
 
-Now that you have a script, you are going to add a new feature to it.
+1. Create a folder in your repository called `Discord-Bot`
+2. Create a `README.md` file in this folder.
+3. [Follow this guide](https://realpython.com/how-to-make-a-discord-bot-python/) to create a Discord bot in a Discord server you control.
 
-- Create a new branch. If you do this via command line, remember to push the branch to GitHub
-- Create an Issue in GitHub. Tie it to your new branch.
-- Work within the branch to create the following new feature:
+- The code for the bot can run either from your personal machine OR run it on the Linux AWS system.
+- I created a fresh Discord server to play around in. You are welcome to do this in any Discord server you have admin privledges or create your own (it's free)
+- Put your `python` code in the `Discord-Bot` folder
+
+4. Update the `README.md` with documentation. Use each bulleted item as a header (see [markdown-demo](../../markdown-demo.md)):
+
+- Description
+  - What the code does
+- How to use an API key
+  - You may assume the user has created a Discord API key; you do not need to details how to do this to the user
+  - Where does the key need to be located? Is this an environment variable? How did it get "loaded" into the system?
+- Dependencies
+  - Is `python` required? What version? How do you install `discord.py`?
+
+## Create a git "server"

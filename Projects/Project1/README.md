@@ -54,3 +54,16 @@ Use markdown to properly format your documentation by highlighting terminal text
   - Is `python` required? What version? How do you install `discord.py`?
 
 ## Create a git "server"
+
+Use your AWS environment to create a git server. You are going to build it similar to how GitHub hosts repositories. The end goal is be able to use a clone command via SSH authentication to clone a repository.
+
+```
+$ git clone git@Linux_AWS_IP:username/projectname
+```
+
+Guided questions:
+
+1. What user are you authenticating as? Peek at the `@` symbol
+2. `username/projectname` is a folder path. Where does it exist?
+3. Investigate `git init --bare`
+4. If you are authenticating using a specific user, where does the public key need to go for SSH authentication?

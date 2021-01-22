@@ -43,10 +43,18 @@ Use markdown to properly format your documentation by highlighting terminal text
 - I created a fresh Discord server to play around in. You are welcome to do this in any Discord server you have admin privledges or create your own (it's free)
 - Put your `python` code in the `Discord-Bot` folder
 
-4. Update the `README.md` with documentation. Use each bulleted item as a header (see [markdown-demo](../../markdown-demo.md)):
+4. Modify the bot code to do either of the following:
+
+- outputs quotes based on a command of your choice
+  - note that this _must_ be a different command and set of quotes from the demo
+- outputs pictures based on a command of your choice
+  - see `!corgme` in the Department server under Discussion. Please spam #cute-pets only
+
+5. Update the `README.md` with documentation. Use each bulleted item as a header (see [markdown-demo](../../markdown-demo.md)):
 
 - Description
   - What the code does
+  - What commands the bot can use, and what they do.
 - How to use an API key
   - You may assume the user has created a Discord API key; you do not need to details how to do this to the user
   - Where does the key need to be located? Is this an environment variable? How did it get "loaded" into the system?
@@ -67,3 +75,5 @@ Guided questions:
 2. `username/projectname` is a folder path. Where does it exist?
 3. Investigate `git init --bare`
 4. If you are authenticating using a specific user, where does the public key need to go for SSH authentication?
+
+TODO: Describe deliverables.

@@ -76,7 +76,15 @@ Guided questions:
 3. Investigate `git init --bare`
 4. If you are authenticating using a specific user, where does the public key need to go for SSH authentication?
 
-TODO: Describe deliverables.
+Deliverables:
+
+In the main folder of your repository, create a folder called `servers`. In the folder, create a file called `git-server.md`. Use each bulleted item as a header (see [markdown-demo](../../markdown-demo.md)):
+
+- How to:
+  - Details on how you setup the remote computer to host a git repository
+- Cloning:
+  - What does the server need from another computer for the `clone` to work? (think about SSH)
+  - Take a screenshot of a working clone as proof of your correct configuration.
 
 ## Submission
 

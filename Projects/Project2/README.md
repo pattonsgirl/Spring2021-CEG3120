@@ -6,12 +6,25 @@
 - Explore Elastic Cloud Computing & Virtual Private Clouds in AWS
 - Play with regulating ports and firewall traffic
 
+## branch-ing out
+
+Create a branch for your project called `git-guide-update`
+
+Update your git guide using your project feedback (if any) and add the following:
+
+- branch
+  - how to create a branch
+  - how to switch to a branch
+  - how to make changes in a branch (what happens, do you still need commits?)
+  - how to merge a branch with main / master
+
+Merge your `git-guide-update` back to the main branch of your repository.
+
+Note: it is not required that GitHub knows about your local branch - the important part is that your changes made on your branch end up on your main branch.
+
 ## TODO List:
 
 - Create a VPC on AWS.
-- Create a code repository (git server)
-  - Ubuntu AMI + manually install git server - in changelog notes, put in what site you followed & any unique configurations. While not "secure" you might also jot down a password hint.
-  - REQUIREMENT: screenshot of a repo local and remote repo
 - Create an OpenLDAP server
 - Attach an IP address to each.
 - Make networking decisions and open ports appropriately.

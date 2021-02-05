@@ -4,6 +4,8 @@ Course materials for CEG 3120 for Spring 2021
 
 ![Hello World!](git-odd-message.PNG)
 
+![Another pic from class](install-git-add-git-to-PATH.PNG)
+
 # Project Title
 
 One Paragraph of project description goes here

@@ -28,7 +28,7 @@ Note: it is not required that GitHub knows about your local branch - the importa
 
 In the main folder of your repository, create a `.gitignore` file.  In this file, specify that you want `git` to ignore the file (use its full path) where you stored your key (likely in a `.env` file).
 
-Update your `git-guide.md` to include how to use a `.gitignore` file.  If you already added your key (as in you can see it on GitHub) try to get rid of it.
+Update your `git-guide.md` to include how to use a `.gitignore` file.  If you already added your key (as in you can see it on GitHub) try to get rid of it.  Write the commands you've tried and their effect in your `git-guide.md` file.
 
 ## AWS Play Time
 

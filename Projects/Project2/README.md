@@ -2,7 +2,7 @@
 
 ## Objectives
 
-- Play with branching
+- Play with branching & ignoring files in a repo
 - Practice good documentation for a growing infrastructure
 - Explore Elastic Cloud Computing & Virtual Private Clouds in AWS
 - Play with regulating ports and firewall traffic
@@ -23,6 +23,12 @@ Update your git guide using your project feedback (if any) and add the following
 Merge your `git-guide-update` back to the main branch of your repository.
 
 Note: it is not required that GitHub knows about your local branch - the important part is that your changes made on your branch end up on your main branch.
+
+## Is it secret? Is it safe?
+
+In the main folder of your repository, create a `.gitignore` file.  In this file, specify that you want `git` to ignore the file (use its full path) where you stored your key (likely in a `.env` file).
+
+Update your `git-guide.md` to include how to use a `.gitignore` file.  If you already added your key (as in you can see it on GitHub) try to get rid of it.
 
 ## AWS Play Time
 

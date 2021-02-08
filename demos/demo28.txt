@@ -1,1 +1,2 @@
 Hello class!
+Writing some new content

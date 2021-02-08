@@ -1,2 +1,3 @@
 Hello class!
 Writing some new content
+Add some content using GitHub text editior

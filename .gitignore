@@ -1,0 +1,3 @@
+grading/*
+# Keep API key from getting added
+DiscordBot/.env

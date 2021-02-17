@@ -33,9 +33,10 @@ Update your `git-guide.md` to include how to use a `.gitignore` file.  If you al
 ## AWS Play Time
 
 - Create a VPC on AWS.
-- Create an 2 EC2 instances.  Utilize an Linux AMI, use only free tier resources.
+- Create 2 EC2 instances.  Utilize an Linux AMI, use only free tier resources.
 - Attach an IP address to each.
 - Utilize Security Groups to lock down inbound cloud traffic
+    - Note: One screenshot of security rules is expected in `manual-mode.md`
     - Allow all traffic on all ports within the VPC subnet (likely 10.0.0.0/16)
     - Allow all traffic on ports 80 AND port 443 from the world
     - All SSH traffic only from your home network

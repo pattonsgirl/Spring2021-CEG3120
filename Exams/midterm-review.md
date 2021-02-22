@@ -34,4 +34,4 @@
     - VPC subnet
 - Security groups
 - EC2
-- Cloud Formation
+- CloudFormation template

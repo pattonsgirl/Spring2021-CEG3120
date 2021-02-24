@@ -15,6 +15,7 @@
     - create a branch
     - switch branches
 - .gitignore
+- hooks
 
 ### authentication
 - SSH keys
@@ -35,3 +36,4 @@
 - Security groups
 - EC2
 - CloudFormation template
+    - Infrastructure as Code

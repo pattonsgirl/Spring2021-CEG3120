@@ -9,7 +9,7 @@
 - Stand up proxy server (HAProxy)
 - Stand up two apache or nginx servers
 - Place a different `index.html` page on each server
-  - You can use mine in the Project 2 folder
+  - You can use mine in the Project folder
 - Create a private / public key
   - put public key on each server (**don't override the AWS key**)
   - put private key on the proxy

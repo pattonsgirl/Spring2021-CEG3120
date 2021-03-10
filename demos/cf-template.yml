@@ -24,8 +24,6 @@ Mappings:
   AWSInstanceType2Arch:  # Supported architectures (x64bit only)
     t2.small:
       Arch: HVM64
-    t2.small:
-      Arch: HVM64
     t2.micro:
       Arch: HVM64
   AWSRegionUbuntu20: # AMI for Ubuntu server in each supported region 
@@ -160,5 +158,6 @@ Resources:
               wget \
               python3-dev \
               ldap-utils && \
+            echo "Hello World" >> /home/ubuntu/from_cf_template.txt && \
             reboot
  

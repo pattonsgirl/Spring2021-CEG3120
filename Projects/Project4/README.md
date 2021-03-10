@@ -4,6 +4,12 @@
 
 - Explore distributed architecture via HAProxy
 
+- Security Considerations:
+  - connect to directory service, allow specific groups access to systems
+  - Have backend servers only use private IP addess
+  - Key on proxy for access to backend servers
+  - Use HTTPS instead of HTTP
+
 ## 1. Load balancer with HAProxy
 
 - Stand up proxy server (HAProxy)

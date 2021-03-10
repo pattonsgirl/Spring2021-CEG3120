@@ -3,24 +3,49 @@
 ## Objectives
 
 - Practice good documentation for a growing infrastructure
-- Play with creating a CloudFormation
+- Create a CloudFormation template for an infrastructure
+- Explore distributed architecture via HAProxy
 
-~~Install python linter~~
-~~Run linter when commits are made~~
-~~Prevent commit if linter does not pass~~
+### AWS Educate Quick Link:
+
+- [Sign in to AWS educate](https://www.awseducate.com/signin/SiteLogin)
+
+## Load balancing with HAProxy
+
+You are going to configure an environment per the following requirements.  Note that you can start by creating everything manually, but part of your deliverables will be a CloudFormation template that stands this layout up.
+
+- Stand up proxy server (HAProxy)
+- Stand up two apache or nginx servers
+- Place a different `index.html` on the HTTP servers
+  - You can use mine in the Project folder
+- Configure the HAProxy server to balance requests between the two web servers
+  - Use Layer 4 for this set up
+- Security groups should be changed to the following rules:
+  - Port 80 traffic from external
+  - Port 22 traffic from external - you can make this just your IP address
+  - Port 80 traffic in private subnet
+  - Port 22 traffic in private subnet
+
+### Deliverables
+
+1. In your `AWS` folder in your repository, have your CloudFormation template that is used to create the infrastructure detailed above.
+2. In your `AWS` folder in your repository, create a file called `proxy-config.md`.  In this file document how you got the proxy 
+
+## Extra Credit: A sprinkle of automation
+
+
+
+### Warnings:
+    - You can have a maximum of **5 Elastic IP Addresses** 
 
 ## TODO List:
-
-1. Create a CloudFormation Template that can recreate your environment installation - from the VPC to the two systems we have created so far.
 
 - [Simplified Example Config File](sample-config-file.yml)
 - [Example Configuration File](https://github.com/mkijowski/aws-cf-templates/blob/master/course-templates/ceg3400.yml)
 - Scope: "configurations" will include software that needs to be installed on the system. Do not deal with configuration files.
 - Note: to keep costs down, you will need to delete your Cloud Stack in between build & test
 
-### AWS Educate Quick Link:
 
-- [Sign in to AWS educate](https://www.awseducate.com/signin/SiteLogin)
 
 Extra credit:
 Play with AWS Cloud Formation linter

@@ -30,7 +30,14 @@ You are going to configure an environment per the following requirements.  Note 
 ### Deliverables
 
 1. In your `AWS` folder in your repository, have your CloudFormation template that is used to create the infrastructure detailed above.  Note that you can start by creating everything manually, you must also have a CloudFormation template that stands this layout up.  Your template should also install the basic packages needed by each system.
-  - [cf-template.yml] is a reference template that sets up a VPC, subnet, security group rules and reserves one EIP and creates on EC2 instance.  You'll need to expand on this to use the security groups you need, create 2 more EIPs, and 2 more instances.  It is recommended to use naming conventions in your template that suggest what resource meets which goal.  `ProxyEIP` for example, is a clearer name than `Ubuntu1IPAddress`
+  - [cf-template.yml] is a reference template that sets up a VPC, subnet, security group rules and reserves one EIP and creates on EC2 instance.
+  - Changes needed:
+    - 3 EIPs instead of 1
+    - 3 EC2 instances instead of 1
+      - Changes to the package list per what software needs to be installed where
+    - Changes to Security Group rules
+    - Changes to AMI
+    - Appropraite naming conventions
 
 2. In your `AWS` folder in your repository, create a file called `proxy-config.md`.  In this file document how you configured the proxy and webservers.  Note which configuration files were modified and the purpose of modifying them.
   - **_HAProxy configuration documentation requirements_**
@@ -38,18 +45,25 @@ You are going to configure an environment per the following requirements.  Note 
     - What file(s) where modified & their location
     - What configuration(s) were set
     - How to restart the service after a configuration change
+    - Resources used (websites)
   - **_Webserver 1 & 2 configuration documentation requirements_**
     - What software / service needed to be installed
     - What file(s) where modified & their location
     - What configuration(s) were set (if any)
     - How to restart the service after a configuration change
+    - Resources used (websites)
   - **_Screenshot(s) indicative that by connecting to the proxy, the proxy is connecting to the webservers to serve content_**
   - **_Link to your Elastic IP for your proxy_**
 
 
 ### Warnings:
-    - You can have a maximum of **5 Elastic IP Addresses** 
+    - You can have a maximum of **FIVE Elastic IP Addresses** 
     - To manage resources & keep costs down, you will need to delete your CloudFormation stack in between build & test
+
+### Resources:
+  - Note: feel free to share additional resources over in Discord.  I'll be updating this if I see you guys sharing something useful
+  - https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
+  - https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04 
 
 ## Extra credit (10%):
 In your `AWS` folder in your repository, create a file called `cf-linter.md`.

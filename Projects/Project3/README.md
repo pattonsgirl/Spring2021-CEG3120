@@ -21,6 +21,7 @@ You are going to configure an environment per the following requirements.  Note 
   - You can use your own content if you wish - developing the page / site is not a core part of this class
 - Configure the HAProxy server to balance requests between the two web servers
   - Use Layer 4 balancing for this set up
+  - Use Round Robin allocation
 - Security groups should be changed to the following rules:
   - Port 80 traffic from external - this should be world accessible
   - Port 22 traffic from external - you can make this just your IP address
@@ -37,7 +38,7 @@ You are going to configure an environment per the following requirements.  Note 
       - Changes to the package list per what software needs to be installed where
     - Changes to Security Group rules
     - Changes to AMI
-    - Appropraite naming conventions
+    - Appropriate naming conventions
 
 2. In your `AWS` folder in your repository, create a file called `proxy-config.md`.  In this file document how you configured the proxy and webservers.  Note which configuration files were modified and the purpose of modifying them.
   - **_HAProxy configuration documentation requirements_**

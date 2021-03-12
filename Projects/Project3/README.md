@@ -14,43 +14,57 @@
 
 You are going to configure an environment per the following requirements.  Note that you can start by creating everything manually, but part of your deliverables will be a CloudFormation template that stands this layout up.
 
-- Stand up proxy server (HAProxy)
+- Stand up one proxy server (HAProxy)
 - Stand up two apache or nginx servers
 - Place a different `index.html` on the HTTP servers
   - You can use mine in the Project folder
+  - You can use your own content if you wish - developing the page / site is not a core part of this class
 - Configure the HAProxy server to balance requests between the two web servers
-  - Use Layer 4 for this set up
+  - Use Layer 4 balancing for this set up
 - Security groups should be changed to the following rules:
-  - Port 80 traffic from external
+  - Port 80 traffic from external - this should be world accessible
   - Port 22 traffic from external - you can make this just your IP address
   - Port 80 traffic in private subnet
   - Port 22 traffic in private subnet
 
 ### Deliverables
 
-1. In your `AWS` folder in your repository, have your CloudFormation template that is used to create the infrastructure detailed above.
-2. In your `AWS` folder in your repository, create a file called `proxy-config.md`.  In this file document how you got the proxy 
+1. In your `AWS` folder in your repository, have your CloudFormation template that is used to create the infrastructure detailed above.  Note that you can start by creating everything manually, you must also have a CloudFormation template that stands this layout up.  Your template should also install the basic packages needed by each system.
+  - [cf-template.yml] is a reference template that sets up a VPC, subnet, security group rules and reserves one EIP and creates on EC2 instance.  You'll need to expand on this to use the security groups you need, create 2 more EIPs, and 2 more instances.  It is recommended to use naming conventions in your template that suggest what resource meets which goal.  `ProxyEIP` for example, is a clearer name than `Ubuntu1IPAddress`
 
-## Extra Credit: A sprinkle of automation
-
+2. In your `AWS` folder in your repository, create a file called `proxy-config.md`.  In this file document how you configured the proxy and webservers.  Note which configuration files were modified and the purpose of modifying them.
+  - **_HAProxy configuration documentation requirements_**
+    - What software / service needed to be installed
+    - What file(s) where modified & their location
+    - What configuration(s) were set
+    - How to restart the service after a configuration change
+  - **_Webserver 1 & 2 configuration documentation requirements_**
+    - What software / service needed to be installed
+    - What file(s) where modified & their location
+    - What configuration(s) were set (if any)
+    - How to restart the service after a configuration change
+  - **_Screenshot(s) indicative that by connecting to the proxy, the proxy is connecting to the webservers to serve content_**
+  - **_Link to your Elastic IP for your proxy_**
 
 
 ### Warnings:
     - You can have a maximum of **5 Elastic IP Addresses** 
+    - To manage resources & keep costs down, you will need to delete your CloudFormation stack in between build & test
 
-## TODO List:
+## Extra credit (10%):
+In your `AWS` folder in your repository, create a file called `cf-linter.md`.
+- **_CloudFormation linter configuration documentation requirements_**
+    - Describe your workflow - are you using VS Code, trying to run it in a terminal?  What environment am I expecting this to work in if I follow your guide
+    - Describe installation and screenshot or highlight snippets (markdown) of how you are installing it
+    - Tell me what the CF linter does and if it is useful.
+- Notes: this package is brand new - I haven't played with it yet either.  Adopting / investigating new tools that could improve workflow is usually worthwhile so you have an informed opinion.  Sometimes things are a bust, but much like roasted brusselsprouts, you should try it before you bash it.
+- https://dannys.cloud/level-up-cloudformation-with-vs-code
+- https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint
+- https://github.com/aws-cloudformation/aws-cfn-lint-visual-studio-code 
+- https://github.com/aws-cloudformation/cfn-python-lint
 
-- [Simplified Example Config File](sample-config-file.yml)
-- [Example Configuration File](https://github.com/mkijowski/aws-cf-templates/blob/master/course-templates/ceg3400.yml)
-- Scope: "configurations" will include software that needs to be installed on the system. Do not deal with configuration files.
-- Note: to keep costs down, you will need to delete your Cloud Stack in between build & test
+## Submission
 
+In your GitHub repository, select the green `Code` button then select `Download ZIP`. Upload this zip file to Pilot.
 
-
-Extra credit:
-Play with AWS Cloud Formation linter
-Notes: this package is brand new - I haven't played with it yet either.  Adopting / investigating new tools that can improve workflow is always worthwhile.  Sometimes things are a bust, but much like roasted brusselsprouts, you should try it before you bash it.
-https://dannys.cloud/level-up-cloudformation-with-vs-code
-https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint
-https://github.com/aws-cloudformation/aws-cfn-lint-visual-studio-code 
-https://github.com/aws-cloudformation/cfn-python-lint
+In the `Comment` area in the Pilot Dropbox, copy URL / link to the repository corresponding to the project you are submitting.

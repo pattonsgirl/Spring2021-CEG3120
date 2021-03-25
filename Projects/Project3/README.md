@@ -65,6 +65,7 @@ You are going to configure an environment per the following requirements.  Note 
   - Note: feel free to share additional resources over in Discord.  I'll be updating this if I see you guys sharing something useful
   - https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
   - https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04 
+    - NOTE: **DO NOT** need to mess with UFW rules.  You may lock yourself out of SSH access.
 
 ## Extra credit (10%):
 In your `AWS` folder in your repository, create a file called `cf-linter.md`.

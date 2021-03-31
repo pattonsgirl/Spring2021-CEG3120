@@ -1,6 +1,6 @@
-# Project 4 - NOT FINALIZED
+# Project 4 - NEEDS DELIVERABLES SPECIFIED
 
-Initial setup.  For this project, you'll need access to a public repo.  I'm going to guess that your class repo may not be in a state where it should be made public, so in Pilot you will find a new invite link to a public repo for this course.  This project will be different from the rest - you are not required to complete milestones on time.  However, given that this is a huge project, you should use the milestones to set goals for yourself.
+Initial setup.  For this project, you'll need access to a public repo.  I'm going to guess that your class repo may not be in a state where it should be made public, so in Pilot you will find a new invite link to a public repo for this course.  I will be checking your repos per the milestones.
 
 ## Part 1:  Milestone due 4/9
 Setup public repo via link in Pilot

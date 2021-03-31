@@ -10,6 +10,7 @@ do
         if [ "$ref" = "refs/heads/$BRANCH" ];
         then
                 echo "Ref $ref received. Deploying ${BRANCH} branch to production..."
+                # the line below is where you will want to start making changes
                 git --work-tree=$TARGET --git-dir=$GIT_DIR checkout -f $BRANCH
         else
                 echo "Ref $ref received. Doing nothing: only the ${BRANCH} branch may be deployed on this server."

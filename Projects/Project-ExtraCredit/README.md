@@ -1,4 +1,4 @@
-# Extra Credit Project
+# Extra Credit Project - NEEDS DELIVERABLES SPECIFIED
 
 This extra credit is based on a working version of Project 3, in which you set up a proxy server and two web servers.  If that infrastrucutre is set up, implement the following CI/CD workflow using hooks.
 

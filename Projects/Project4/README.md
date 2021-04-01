@@ -24,3 +24,9 @@ Dockerize your python bot
 - Will require use of GitHub Secrets to protect the API key
 - This guide has a parallel example with some things to consider
     - https://aws.amazon.com/blogs/containers/create-a-ci-cd-pipeline-for-amazon-ecs-with-github-actions-and-aws-codebuild-tests/
+
+## Submission
+
+In your GitHub repository, select the green `Code` button then select `Download ZIP`. Upload this zip file to Pilot.
+
+In the `Comment` area in the Pilot Dropbox, copy URL / link to the repository corresponding to the project you are submitting

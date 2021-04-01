@@ -20,9 +20,6 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 
 ## Part 3: Milestone due 4/23
 - If success, get AWS AMI credentials (GitHub Secrets), upload container to ECR
-- TODO: Add milestone deliverables
-
-## Part 4: Milestone due 4/23
 - Update ECS to use new container
 - TODO: Add milestone deliverables
 

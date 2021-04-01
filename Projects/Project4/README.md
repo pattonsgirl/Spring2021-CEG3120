@@ -1,4 +1,4 @@
-# Project 4 - NEEDS DELIVERABLES SPECIFIED
+# Project 4 
 
 For this project, you'll need access to a public repo.  I'm going to guess that your class repo may not be in a state where it should be made public (remember those Discord API keys?), so in Pilot you will find a new invite link to a public repo for this course.  Completion of each milestone **by the date specificied for the milstone** will get you 1 pt of extra credit per milestone met.  To qualify, you must submit your project to the Dropbox for Project 4 in Pilot.
 
@@ -16,13 +16,15 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 
 ## Part 2: Milestone due 4/16
 - Set up with AWS CodeBuild, have return status be used of whether of not Dockerfile could be built.
+- TODO: Add milestone deliverables
 
 ## Part 3: Milestone due 4/23
 - If success, get AWS AMI credentials (GitHub Secrets), upload container to ECR
+- TODO: Add milestone deliverables
 
 ## Part 4: Milestone due 4/23
 - Update ECS to use new container
-
+- TODO: Add milestone deliverables
 
 ## Extra Credit:
 - Dockerize your python bot

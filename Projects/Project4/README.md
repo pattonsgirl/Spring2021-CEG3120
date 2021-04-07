@@ -1,6 +1,6 @@
 # Project 4 
 
-For this project, you'll need access to a public repo.  I'm going to guess that your class repo may not be in a state where it should be made public (remember those Discord API keys?), so in Pilot you will find a new invite link to a public repo for this course.  Completion of each milestone **by the date specificied for the milstone** will get you 1 pt of extra credit per milestone met.  To qualify, you must submit your project to the Dropbox for Project 4 in Pilot.
+For this project, you'll need access to a public repo.  I'm going to guess that your class repo may not be in a state where it should be made public (remember those Discord API keys?), so in Pilot you will find a new invite link to a public repo for this course.  Completion of each milestone **by the date specificied for the milestone** will get you 1 pt of extra credit per milestone met.  To qualify, you must submit your project to the Dropbox for Project 4 in Pilot.
 
 ## Setup:
 - Create public repo per link in Pilot
@@ -12,6 +12,8 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 - Setup public repo via link in Pilot
 - Dockerize your website and test locally
     - https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
+    - Your website is in reference to last project, where you put an `index.html` page on a server running `apache2`
+        - As per before, a template html page is posted here in the project folder [index.html](index.html) 
 - Add site content & Dockerfile to repo
 
 ## Part 2: Milestone due 4/16

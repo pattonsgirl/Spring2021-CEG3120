@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# Instructions from https://docs.docker.com/engine/install/ubuntu/
+
 echo "Hello!  My job is to install Docker on a Ubuntu Linux system.  First, I'm going to check permissions."
 
 if [[ $EUID == 0 ]]

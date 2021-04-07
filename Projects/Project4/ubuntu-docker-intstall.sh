@@ -10,6 +10,8 @@ else
     exit;
 fi
 
+# TODO: check if docker is installed
+
 # check that package repos are up to date
 apt update
 
@@ -25,6 +27,7 @@ apt install \
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 # add stable DOcker package repository to apt
+# TODO: check if docker.list exists
 echo \
   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null

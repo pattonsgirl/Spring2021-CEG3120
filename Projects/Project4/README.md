@@ -6,7 +6,7 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 - Create public repo per link in Pilot
 - Clone repo to your working environment (you should not need to use EC2 instances).
 - Install [Docker for Desktop](https://www.docker.com/products/docker-desktop) 
-- Maybe: Install [AWS CLI](https://aws.amazon.com/cli/)
+- Maybe: Install [AWS CLI](https://aws.amazon.com/cli/) and [configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
 
 ## Part 1: Dockerize it - Milestone due 4/9
 - Setup public repo via link in Pilot
@@ -22,6 +22,12 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 - Set up GitHub workflow that pushes image to ECR, comment out ECS related sections
     - Using workflow templated here: https://docs.github.com/en/actions/guides/deploying-to-amazon-elastic-container-service
 - Optional: install AWS CLI and play with using commands to play with your AWS account
+    - Instructions to configure AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+        - You can't make an IAM user, so you'll need to pull up yours, see below
+    - How to get IAM user credentials
+        - Sign in to AWS Educate, click our classroom - don't click AWS Console
+        - Click other blue button for account details.  In here, you'll find the credentials for AWS CLI
+    - Guide update incoming
 
 ## Part 3: Milestone due 4/23
 - Add ECS components to workflow

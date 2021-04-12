@@ -8,7 +8,7 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 - Install [Docker for Desktop](https://www.docker.com/products/docker-desktop) 
 - Maybe: Install [AWS CLI](https://aws.amazon.com/cli/)
 
-## Part 1:  Milestone due 4/9
+## Part 1: Dockerize it - Milestone due 4/9
 - Setup public repo via link in Pilot
 - Dockerize your website and test locally
     - https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
@@ -16,9 +16,12 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
         - As per before, a template html page is posted here in the project folder [index.html](index.html) 
 - Add site content & Dockerfile to repo
 
-## Part 2: Milestone due 4/16
-- Set up with AWS CodeBuild, have return status be used of whether of not Dockerfile could be built.
-- TODO: Add milestone deliverables
+## Part 2: GitHub Actions & ECR - Milestone due 4/17
+- Set up ECR on AWS educate account
+- Create GitHub Actions secrets named AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to store the values for your Amazon IAM access key
+- Set up GitHub workflow that pushes image to ECR, comment out ECS related sections
+    - Using workflow templated here: https://docs.github.com/en/actions/guides/deploying-to-amazon-elastic-container-service
+- Optional: install AWS CLI and play with using commands to play with your AWS account
 
 ## Part 3: Milestone due 4/23
 - If success, get AWS AMI credentials (GitHub Secrets), upload container to ECR
@@ -27,9 +30,8 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 
 ## Extra Credit:
 - Dockerize your python bot
-    - Will require use of GitHub Secrets to protect the API key
-    - This guide has a parallel example with some things to consider
-        - https://aws.amazon.com/blogs/containers/create-a-ci-cd-pipeline-for-amazon-ecs-with-github-actions-and-aws-codebuild-tests/
+    - Your API key may be the most challenging piece of this project extra credit.  GitHub secrets might be handy.
+    - Be sure to site your sources if you model off of an example / other documentation
 
 ## Submission
 

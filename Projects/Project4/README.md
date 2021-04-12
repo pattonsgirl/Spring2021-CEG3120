@@ -24,9 +24,8 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 - Optional: install AWS CLI and play with using commands to play with your AWS account
 
 ## Part 3: Milestone due 4/23
-- If success, get AWS AMI credentials (GitHub Secrets), upload container to ECR
-- Update ECS to use new container
-- TODO: Add milestone deliverables
+- Add ECS components to workflow
+- TODO: Add milestone deliverables, namely documentation requirements.
 
 ## Extra Credit:
 - Dockerize your python bot

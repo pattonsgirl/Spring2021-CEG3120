@@ -52,3 +52,5 @@ This section is notes on what has needed to be modified over the course of this 
         - Sign in to AWS Educate, click our classroom - don't click AWS Console
         - Click other blue button for account details.  In here, you'll find the credentials for AWS CLI
     - Guide update incoming
+- Verify services are actually available before using again: 
+    - https://awseducate-starter-account-services.s3.amazonaws.com/AWS_Educate_Starter_Account_Services_Supported.pdf

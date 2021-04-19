@@ -28,6 +28,7 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
     - Using workflow templated here: https://docs.github.com/en/actions/guides/deploying-to-amazon-elastic-container-service
 
 ## Part 3: Documentation - Milestone due 4/23
+
 - Create `README.md` in main folder of your repo that details the following:
     - Project Overview
     - Run Project Locally

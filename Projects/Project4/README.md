@@ -49,7 +49,9 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
         - variables to change (AWS_REGION, etc.)    
 
 ## Extra Credit - Docker Pull
-- 
+- https://docs.aws.amazon.com/AmazonECR/latest/userguide/registry_auth.html
+- https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-pull-ecr-image.html
+- Pull image, run locally
 
 
 ## Extra Credit - [Docke]Rise of the Discord Bot

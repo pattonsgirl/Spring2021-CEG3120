@@ -53,9 +53,9 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 - https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-pull-ecr-image.html
 - Pull image, run locally
 
-
 ## Extra Credit - [Docke]Rise of the Discord Bot
 - Dockerize your python bot - place in repo in folder named `Discord-Bot`
+    - Add instructions to handle API key from Discord.  Maybe have a docker copy that gets a .env file from their path (this need to exist to build and run image)
     - Your API key may be the most challenging piece of this project extra credit.  GitHub secrets might be handy.
     - Be sure to site your sources if you model off of an example / other documentation
 

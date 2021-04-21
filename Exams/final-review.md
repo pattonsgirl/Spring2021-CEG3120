@@ -1,4 +1,4 @@
-# Midterm Review for CEG 3120
+# Final Review for CEG 3120
 ## Spring 2021
 
 ## Da Rules

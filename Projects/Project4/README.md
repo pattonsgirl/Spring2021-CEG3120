@@ -26,9 +26,18 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
 - Create GitHub Actions secrets named AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY using info in Pilot page.
 - Set up GitHub workflow that pushes image to ECR, comment out ECS related sections
     - Using workflow templated here: https://docs.github.com/en/actions/guides/deploying-to-amazon-elastic-container-service
+### Alternative - GitHub Actions & DockerHub
+- **As of 4/21, AWS IAM credentials are not working**.  
+- You are still required to install AWS CLI and fill in the AWS CLI portion of the documentation.
+    - Note: since the IAM credentials won't work, you will not be creating an ECR
+- Create DockerHub account: https://hub.docker.com/ (select Free tier if prompted)
+- Create Public Repository in DockerHub
+- Set GitHub Secrets named DOCKER_USERNAME and DOCKER_PASSWORD with your respective information filled out.
+- Set up GitHub Actions workflow to build and push docker image to DockerHub
+    - Use workflow templated here: https://docs.github.com/en/actions/guides/publishing-docker-images#publishing-images-to-docker-hub
 
 ## Part 3: Documentation - Milestone due 4/23
-
+### Documentation requirements using ECR
 - Create `README.md` in main folder of your repo that details the following:
     - Project Overview
     - Run Project Locally
@@ -46,12 +55,32 @@ For this project, you'll need access to a public repo.  I'm going to guess that 
         - need AWS IAM user with admin credentials
         - set secrets and secret names
     - Configure GitHub Workflow
-        - variables to change (AWS_REGION, etc.)    
+        - variables to change (AWS_REGION, etc.) 
+
+### Documentation requirements using DockerHub
+- Create `README.md` in main folder of your repo that details the following:
+    - Project Overview
+    - Run Project Locally
+        - how you installed docker + dependencies (WSL2, for example)
+        - how to build the container
+        - how to run the container
+        - how to view the project (open a browser...go to ip and port...)
+    - Configure AWS CLI
+        - need AWS IAM user with admin credentials
+        - how you installed
+        - how to configure
+    - Create DockerHub public repo
+        - process to create
+    - Configure GitHub Secrets
+        - what credentials are needed - DockerHub credentials (do not state your credentials)
+        - set secrets and secret names
+    - Configure GitHub Workflow
+        - variables to change (repository, etc.) 
 
 ## Extra Credit - Docker Pull
-- https://docs.aws.amazon.com/AmazonECR/latest/userguide/registry_auth.html
-- https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-pull-ecr-image.html
-- Pull image, run locally
+- Documentation to perform the following:
+    - How to pull image with `docker pull`, what repo is the image in, requirements of the repo (public vs. private)
+    - Run the pulled image locally, using your system or a system on AWS as the host.
 
 ## Extra Credit - [Docke]Rise of the Discord Bot
 - Dockerize your python bot - place in repo in folder named `Discord-Bot`

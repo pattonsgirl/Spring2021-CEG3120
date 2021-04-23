@@ -61,7 +61,7 @@ Midterm: Monday, 4/26
         - steps - GitHub actions or commands to be run
         - actions - specialty GitHub actions that do things, like checkout the project to the runner
 - GitHub Secrets
-    - encypted storage of protected information (API keys, IAM credentials, etc) - maps secret to variable name
+    - encypted storage of protected information (API keys, IAM credentials, DockerHub credentials, etc) - maps secret to variable name
     - can call on secret values with notation: ${{ secrets.SECRET_VARIABLE }}
 
 ### Containers

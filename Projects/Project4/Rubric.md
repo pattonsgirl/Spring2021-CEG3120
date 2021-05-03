@@ -2,9 +2,6 @@
 
 / 10
 
-Part 1 - / 2
-Part 2 - / 2
-Part 3 - / 6
 Milestone EC - / 2
 Dockerize Discord bot EC - / 1
 Docker pull EC - / 1

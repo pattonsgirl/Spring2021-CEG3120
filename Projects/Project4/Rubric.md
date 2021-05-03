@@ -1,5 +1,14 @@
 # Project 4 Rubric
 
+/ 10
+
+Part 1 - / 2
+Part 2 - / 2
+Part 3 - / 6
+Milestone EC - / 2
+Dockerize Discord bot EC - / 1
+Docker pull EC - / 1
+
 ## Part 1 - Setup repo contents
 - Repo contents:
     - Dockerfile
@@ -9,7 +18,7 @@
 - AWS CLI + ECR + GitHub Actions
 - DockerHub + GitHub Actions
 
-## Part 3
+## Part 3 - Documentation
 ### Documentation requirements using ECR
 - Create `README.md` in main folder of your repo that details the following:
     - Project Overview
